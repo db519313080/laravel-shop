@@ -8,10 +8,7 @@ return [
 
     'port' => env('MAIL_PORT', 587),
 
-    'from' => [
-        'address' => 'sales@tripinsight.cn',
-        'name' => 'shop',
-    ],
+    'from' => ['address' => env('MAIL_FROM_ADDRESS'), 'name' => env('MAIL_FROM_NAME')],
 
     'encryption' => env('MAIL_ENCRYPTION', 'tls'),
 
