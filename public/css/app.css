@@ -8470,3 +8470,10 @@ body {
   border-right: 1px solid #eee;
 }
 
+.products-index-page .search-form {
+  padding: 0 20px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
