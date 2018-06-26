@@ -33,6 +33,7 @@ return array(
     'App\\Http\\Requests\\Request' => $baseDir . '/app/Http/Requests/Request.php',
     'App\\Http\\Requests\\UserAddressRequest' => $baseDir . '/app/Http/Requests/UserAddressRequest.php',
     'App\\Listeners\\RegisteredListener' => $baseDir . '/app/Listeners/RegisteredListener.php',
+    'App\\Models\\CartItem' => $baseDir . '/app/Models/CartItem.php',
     'App\\Models\\Product' => $baseDir . '/app/Models/Product.php',
     'App\\Models\\ProductSku' => $baseDir . '/app/Models/ProductSku.php',
     'App\\Models\\UserAddress' => $baseDir . '/app/Models/UserAddress.php',
