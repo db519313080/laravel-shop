@@ -229,5 +229,6 @@ return [
     ],
 
     'faker_locale' => 'zh_CN',
+    'order_ttl' => 1800,
 
 ];
