@@ -110,10 +110,6 @@
     * validation : not_regex
 
  * de:
-    * validation : gt
-    * validation : gte
-    * validation : lt
-    * validation : lte
 
  * el:
     * validation : gt
@@ -374,10 +370,6 @@
  * ms:
 
  * nb:
-    * validation : gt
-    * validation : gte
-    * validation : lt
-    * validation : lte
 
  * ne:
     * validation : after_or_equal
@@ -397,11 +389,6 @@
     * validation : uploaded
 
  * nl:
-    * validation : gt
-    * validation : gte
-    * validation : lt
-    * validation : lte
-    * validation : not_regex
 
  * nn:
     * validation : after_or_equal
@@ -467,11 +454,6 @@
     * validation : uploaded
 
  * sk:
-    * validation : gt
-    * validation : gte
-    * validation : lt
-    * validation : lte
-    * validation : not_regex
 
  * sl:
     * validation : gt

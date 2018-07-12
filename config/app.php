@@ -177,6 +177,9 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        //PhpOffice\PhpPresentation\Autoloader::class,
+        //PhpOffice\Common\Autoloader::class,
+
     ],
 
     /*
@@ -225,6 +228,8 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+        //'PhpOffice' => PhpOffice\PhpPresentation\Autoloader::class,
+        //'PhpOfficeCommon' => PhpOffice\Common\Autoloader::class,
 
     ],
 

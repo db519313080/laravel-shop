@@ -46,6 +46,4 @@ Route::group(['middleware' => 'auth'], function() {
 Route::get('products/{product}', 'ProductsController@show')->name('products.show');
 
 
-Route::get('/test', function() {
-    phpinfo();
-});
+Route::get('test', 'TestController@test');
