@@ -180,6 +180,9 @@ return [
         //PhpOffice\PhpPresentation\Autoloader::class,
         //PhpOffice\Common\Autoloader::class,
 
+        Intervention\Image\ImageServiceProvider::class,
+
+
     ],
 
     /*
@@ -230,6 +233,7 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
         //'PhpOffice' => PhpOffice\PhpPresentation\Autoloader::class,
         //'PhpOfficeCommon' => PhpOffice\Common\Autoloader::class,
+        'Image' => Intervention\Image\Facades\Image::class
 
     ],
 

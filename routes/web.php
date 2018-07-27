@@ -47,3 +47,4 @@ Route::get('products/{product}', 'ProductsController@show')->name('products.show
 
 
 Route::get('test', 'TestController@test');
+Route::get('img', 'TestController@img');
