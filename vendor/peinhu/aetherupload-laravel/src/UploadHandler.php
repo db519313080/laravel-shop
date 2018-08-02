@@ -1,14 +1,8 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace AetherUpload;
 
-use Illuminate\Http\Request;
-use AetherUpload\Receiver;
-use AetherUpload\ConfigMapper;
-use AetherUpload\Responser;
-use AetherUpload\RedisHandler;
-
-class TestController extends Controller
+class UploadHandler extends \Illuminate\Routing\Controller
 {
     private $receiver;
 
@@ -19,11 +13,6 @@ class TestController extends Controller
         ConfigMapper::getInstance()->applyGroupConfig(request('group'));
         $this->middleware(ConfigMapper::get('MIDDLEWARE_PREPROCESS'))->only('preprocess');
         $this->middleware(ConfigMapper::get('MIDDLEWARE_SAVE_CHUNK'))->only('saveChunk');
-    }
-
-    public function test()
-    {
-        return view('example');
     }
 
     /**
@@ -183,4 +172,6 @@ class TestController extends Controller
     {
         return ['php', 'part', 'html', 'shtml', 'htm', 'shtm', 'js', 'jsp', 'asp', 'java', 'py', 'sh', 'bat', 'exe', 'dll', 'cgi', 'htaccess', 'reg', 'aspx', 'vbs'];
     }
+
+
 }

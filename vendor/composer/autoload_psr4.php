@@ -62,5 +62,6 @@ return array(
     'DeepCopy\\' => array($vendorDir . '/myclabs/deep-copy/src/DeepCopy'),
     'Cron\\' => array($vendorDir . '/mtdowling/cron-expression/src/Cron'),
     'App\\' => array($baseDir . '/app'),
+    'AetherUpload\\' => array($vendorDir . '/peinhu/aetherupload-laravel/src'),
     '' => array($vendorDir . '/nesbot/carbon/src'),
 );

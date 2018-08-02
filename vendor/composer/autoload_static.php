@@ -136,6 +136,7 @@ class ComposerStaticInit64bedc46c5c089d5bf723e1943931531
         'A' => 
         array (
             'App\\' => 4,
+            'AetherUpload\\' => 13,
         ),
     );
 
@@ -366,6 +367,10 @@ class ComposerStaticInit64bedc46c5c089d5bf723e1943931531
         array (
             0 => __DIR__ . '/../..' . '/app',
         ),
+        'AetherUpload\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/peinhu/aetherupload-laravel/src',
+        ),
     );
 
     public static $fallbackDirsPsr4 = array (
@@ -419,6 +424,17 @@ class ComposerStaticInit64bedc46c5c089d5bf723e1943931531
     );
 
     public static $classMap = array (
+        'AetherUpload\\AetherUploadServiceProvider' => __DIR__ . '/..' . '/peinhu/aetherupload-laravel/src/AetherUploadServiceProvider.php',
+        'AetherUpload\\ConfigMapper' => __DIR__ . '/..' . '/peinhu/aetherupload-laravel/src/ConfigMapper.php',
+        'AetherUpload\\Console\\BuildRedisHashesCommand' => __DIR__ . '/..' . '/peinhu/aetherupload-laravel/src/Console/BuildRedisHashesCommand.php',
+        'AetherUpload\\Console\\CleanUpDirectoryCommand' => __DIR__ . '/..' . '/peinhu/aetherupload-laravel/src/Console/CleanUpDirectoryCommand.php',
+        'AetherUpload\\Console\\CreateGroupDirectoryCommand' => __DIR__ . '/..' . '/peinhu/aetherupload-laravel/src/Console/CreateGroupDirectoryCommand.php',
+        'AetherUpload\\Console\\PublishCommand' => __DIR__ . '/..' . '/peinhu/aetherupload-laravel/src/Console/PublishCommand.php',
+        'AetherUpload\\Receiver' => __DIR__ . '/..' . '/peinhu/aetherupload-laravel/src/Receiver.php',
+        'AetherUpload\\RedisHandler' => __DIR__ . '/..' . '/peinhu/aetherupload-laravel/src/RedisHandler.php',
+        'AetherUpload\\ResourceHandler' => __DIR__ . '/..' . '/peinhu/aetherupload-laravel/src/ResourceHandler.php',
+        'AetherUpload\\Responser' => __DIR__ . '/..' . '/peinhu/aetherupload-laravel/src/Responser.php',
+        'AetherUpload\\UploadHandler' => __DIR__ . '/..' . '/peinhu/aetherupload-laravel/src/UploadHandler.php',
         'App\\Admin\\Controllers\\CouponCodesController' => __DIR__ . '/../..' . '/app/Admin/Controllers/CouponCodesController.php',
         'App\\Admin\\Controllers\\ExampleController' => __DIR__ . '/../..' . '/app/Admin/Controllers/ExampleController.php',
         'App\\Admin\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Admin/Controllers/HomeController.php',
@@ -441,6 +457,7 @@ class ComposerStaticInit64bedc46c5c089d5bf723e1943931531
         'App\\Http\\Controllers\\CouponCodesController' => __DIR__ . '/../..' . '/app/Http/Controllers/CouponCodesController.php',
         'App\\Http\\Controllers\\EmailVerificationController' => __DIR__ . '/../..' . '/app/Http/Controllers/EmailVerificationController.php',
         'App\\Http\\Controllers\\OrdersController' => __DIR__ . '/../..' . '/app/Http/Controllers/OrdersController.php',
+        'App\\Http\\Controllers\\PPTClass' => __DIR__ . '/../..' . '/app/Http/Controllers/PPTClass.php',
         'App\\Http\\Controllers\\PagesController' => __DIR__ . '/../..' . '/app/Http/Controllers/PagesController.php',
         'App\\Http\\Controllers\\PaymentController' => __DIR__ . '/../..' . '/app/Http/Controllers/PaymentController.php',
         'App\\Http\\Controllers\\ProductsController' => __DIR__ . '/../..' . '/app/Http/Controllers/ProductsController.php',

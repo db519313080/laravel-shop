@@ -47,4 +47,5 @@ Route::get('products/{product}', 'ProductsController@show')->name('products.show
 
 
 Route::get('test', 'TestController@test');
+Route::any('saveChunk', 'TestController@saveChunk');
 Route::get('img', 'TestController@img');

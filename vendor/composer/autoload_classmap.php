@@ -6,6 +6,17 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'AetherUpload\\AetherUploadServiceProvider' => $vendorDir . '/peinhu/aetherupload-laravel/src/AetherUploadServiceProvider.php',
+    'AetherUpload\\ConfigMapper' => $vendorDir . '/peinhu/aetherupload-laravel/src/ConfigMapper.php',
+    'AetherUpload\\Console\\BuildRedisHashesCommand' => $vendorDir . '/peinhu/aetherupload-laravel/src/Console/BuildRedisHashesCommand.php',
+    'AetherUpload\\Console\\CleanUpDirectoryCommand' => $vendorDir . '/peinhu/aetherupload-laravel/src/Console/CleanUpDirectoryCommand.php',
+    'AetherUpload\\Console\\CreateGroupDirectoryCommand' => $vendorDir . '/peinhu/aetherupload-laravel/src/Console/CreateGroupDirectoryCommand.php',
+    'AetherUpload\\Console\\PublishCommand' => $vendorDir . '/peinhu/aetherupload-laravel/src/Console/PublishCommand.php',
+    'AetherUpload\\Receiver' => $vendorDir . '/peinhu/aetherupload-laravel/src/Receiver.php',
+    'AetherUpload\\RedisHandler' => $vendorDir . '/peinhu/aetherupload-laravel/src/RedisHandler.php',
+    'AetherUpload\\ResourceHandler' => $vendorDir . '/peinhu/aetherupload-laravel/src/ResourceHandler.php',
+    'AetherUpload\\Responser' => $vendorDir . '/peinhu/aetherupload-laravel/src/Responser.php',
+    'AetherUpload\\UploadHandler' => $vendorDir . '/peinhu/aetherupload-laravel/src/UploadHandler.php',
     'App\\Admin\\Controllers\\CouponCodesController' => $baseDir . '/app/Admin/Controllers/CouponCodesController.php',
     'App\\Admin\\Controllers\\ExampleController' => $baseDir . '/app/Admin/Controllers/ExampleController.php',
     'App\\Admin\\Controllers\\HomeController' => $baseDir . '/app/Admin/Controllers/HomeController.php',
@@ -28,6 +39,7 @@ return array(
     'App\\Http\\Controllers\\CouponCodesController' => $baseDir . '/app/Http/Controllers/CouponCodesController.php',
     'App\\Http\\Controllers\\EmailVerificationController' => $baseDir . '/app/Http/Controllers/EmailVerificationController.php',
     'App\\Http\\Controllers\\OrdersController' => $baseDir . '/app/Http/Controllers/OrdersController.php',
+    'App\\Http\\Controllers\\PPTClass' => $baseDir . '/app/Http/Controllers/PPTClass.php',
     'App\\Http\\Controllers\\PagesController' => $baseDir . '/app/Http/Controllers/PagesController.php',
     'App\\Http\\Controllers\\PaymentController' => $baseDir . '/app/Http/Controllers/PaymentController.php',
     'App\\Http\\Controllers\\ProductsController' => $baseDir . '/app/Http/Controllers/ProductsController.php',
