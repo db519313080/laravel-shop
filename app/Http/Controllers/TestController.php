@@ -13,5 +13,6 @@ class TestController extends Controller
         dd(preg_replace($pattern,'',$subject),preg_quote($pattern));
         $res = preg_match($pattern,$subject,$arr);
         dd($res,$arr);
+        
     }
 }

@@ -10,3 +10,4 @@ npm-debug.log
 yarn-error.log
 resources/wechat_pay
 config/pay.php
+/app/Http/Controllers/TestController.php
